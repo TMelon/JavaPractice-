@@ -1,0 +1,15 @@
+public class Numbers{
+
+//Just a little programm to practice nameing int's
+
+public static void main(String[] args){
+
+int myFirstNum = (5+10)+(2*10);
+int mySecondNum = 12;
+int myThirdNum = myFirstNum * 5;
+int MyTotal = myFirstNum + mySecondNum + myThirdNum;
+
+System.out.println(myTotal);
+
+int myLastOne = 1000 - myTotal;
+System.out.println(myLastOne);
