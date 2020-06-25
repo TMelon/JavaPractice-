@@ -1,0 +1,15 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        int myValue = 10000;
+
+        int myMinIntValue = Integer.MIN_VALUE; //This is to get the minimum value of the int
+        int myMaxIntValue = Integer.MAX_VALUE;//This is to get the maximum value of the int
+        System.out.println("Integer Minimum Value = " + myMinIntValue); //Prints out the the String followed by the numerical value
+        System.out.println("Integer Maximum Value = " + myMaxIntValue); //Prints out the the String followed by the numerical value
+        System.out.println("Busted MAX value = " + (myMaxIntValue + 1 ));//Prints out the the String followed by the busted numerical value
+        System.out.println("Busted MIN value = " + (myMinIntValue - 1 ));//Prints out the the String followed by the busted numerical value
+    }
+
+}
